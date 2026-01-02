@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offlist.me Overview</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --surface: #ffffff;
+            --on-surface: #0f172a;
+            --text-secondary: #475569;
+            --accent: #fcd34d;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=cal-sans:wght@400;600&family=Inter:wght@400;500;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #f8fafc;
+            color: var(--on-surface);
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .slide {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            box-sizing: border-box;
+            text-align: center;
+            position: relative;
+            border-bottom: 1px solid #e2e8f0;
+            background: white;
+            scroll-snap-align: start;
+        }
+
+        /* Branding Strip */
+        .brand-strip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #2563eb, #3b82f6);
+        }
+
+        h1,
+        h2 {
+            font-family: 'Cal Sans', sans-serif;
+            /* Simulating 'font-display' */
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            color: #1e293b;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #1e293b;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #475569;
+            max-width: 800px;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .number {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            font-size: 1rem;
+            color: #cbd5e1;
+            font-weight: bold;
+        }
+
+        .logo {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cta-btn {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 99px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-top: 2rem;
+            display: inline-block;
+        }
+
+        /* Alternate Slide Style */
+        .slide.dark {
+            background: #1e293b;
+        }
+
+        .slide.dark h1,
+        .slide.dark h2 {
+            color: white;
+        }
+
+        .slide.dark p {
+            color: #94a3b8;
+        }
+
+        .slide.dark .logo {
+            color: white;
+        }
+
+        /* Highlight */
+        .highlight {
+            color: var(--primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Slide 1: Cover -->
+    <div class="slide">
+        <div class="brand-strip"></div>
+        <div class="logo">Offlist.me</div>
+        <h1>Remove Your Data from 100+ Platforms</h1>
+        <p>Without Signing Up. The privacy tool that sends legally-binding opt-out requests in one click.</p>
+        <span class="number">01</span>
+    </div>
+
+    <!-- Slide 2: The Truth -->
+    <div class="slide">
+        <div class="logo">Offlist.me</div>
+        <h2>The Truth</h2>
+        <p>Your professional info is scraped and sold daily by <span class="highlight">100+ B2B data brokers</span> like
+            ZoomInfo and Apollo. They sell it to spammers without your consent.</p>
+        <span class="number">02</span>
+    </div>
+
+    <!-- Slide 3: The Fix -->
+    <div class="slide dark">
+        <div class="logo">Offlist.me</div>
+        <h2>The Fix</h2>
+        <p>Offlist.me auto-generates <span class="highlight">legally compliant opt-out emails</span> for every major
+            data broker. You send them directly from your own inbox.</p>
+        <span class="number">03</span>
+    </div>
+
+    <!-- Slide 4: How It Works -->
+    <div class="slide">
+        <div class="logo">Offlist.me</div>
+        <h2>How It Works</h2>
+        <p>1. Select Platforms (ZoomInfo, Apollo, etc.)<br>2. Click "Generate Request"<br>3. Review the drafted email in
+            your mail app<br>4. Hit Send</p>
+        <span class="number">04</span>
+    </div>
+
+    <!-- Slide 5: No Accounts -->
+    <div class="slide">
+        <div class="logo">Offlist.me</div>
+        <h2>No Accounts Required</h2>
+        <p>We don’t want your data. There are <span class="highlight">no accounts, dashboards, or logins</span>. The
+            removal email is created locally on your device.</p>
+        <span class="number">05</span>
+    </div>
+
+    <!-- Slide 6: Instant Pre-Filled Email -->
+    <div class="slide dark">
+        <div class="logo">Offlist.me</div>
+        <h2>Instant Pre-Filled Email</h2>
+        <p>We automatically fill the To, CC, Subject, and legally-structured request body. All you do is review and hit
+            Send.</p>
+        <span class="number">06</span>
+    </div>
+
+    <!-- Slide 7: Pricing -->
+    <div class="slide">
+        <div class="logo">Offlist.me</div>
+        <h2>Simple Pricing</h2>
+        <p><strong>Basic ($0):</strong> Up to 3 platforms.<br><strong>Pro Unlock ($1):</strong> Select all 100+
+            platforms. 24-hour access pass. No subscriptions.</p>
+        <span class="number">07</span>
+    </div>
+
+    <!-- Slide 8: The Difference -->
+    <div class="slide">
+        <div class="logo">Offlist.me</div>
+        <h2>Offlist vs The Rest</h2>
+        <p>Others charge $10-$25/mo and ask for your Passport ID. <br><br><strong>Offlist charges $1</strong>, requires
+            zero ID, and gives you full control.</p>
+        <span class="number">08</span>
+    </div>
+
+    <!-- Slide 9: Our Mission -->
+    <div class="slide">
+        <div class="logo">Offlist.me</div>
+        <h2>Our Mission</h2>
+        <p>Built from too many "Take me off the list" replies. We believe privacy shouldn't require a subscription or
+            more data collection.</p>
+        <span class="number">09</span>
+    </div>
+
+    <!-- Slide 10: CTA -->
+    <div class="slide dark">
+        <div class="logo">Offlist.me</div>
+        <h1>Take Me Off The List</h1>
+        <p>Join thousands of users removing their data today.</p>
+        <a href="https://offlist.me/start" class="cta-btn">Start Removal Now</a>
+        <span class="number">10</span>
+    </div>
+
+    <script>
+        // Simple key navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+            }
+            if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                window.scrollBy({ top: -window.innerHeight, behavior: 'smooth' });
+            }
+        });
+    </script>
+</body>
+
+</html>
