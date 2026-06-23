@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">What happens when you send a deletion request to every California-registered data broker</title>
+  <desc id="desc">A UC Irvine study sent a verifiable consumer deletion request to all 543 data brokers registered with California. 43 percent never responded at all, a likely CCPA violation. The remaining 57 percent responded, and of those responders 90.7 percent replied within the mandated 45-day window, with half replying within 6 days.</desc>
+  <rect width="1200" height="540" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">WHAT HAPPENS TO A DELETION REQUEST</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">543 brokers, one verified request each</text>
+  <text x="48" y="120" font-size="15" fill="#475569">UC Irvine sent a verifiable CCPA deletion request to every California-registered data broker.</text>
+
+  <!-- Stacked outcome bar: 43% silent | 57% responded -->
+  <text x="48" y="166" font-size="12.5" font-weight="700" letter-spacing="1" fill="#94a3b8">OUTCOME OF 543 REQUESTS</text>
+
+  <!-- 43% never responded (x 48..523, width 475) -->
+  <rect x="48" y="178" width="475" height="104" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="72" y="216" font-size="40" font-weight="800" fill="#dc2626">43%</text>
+  <text x="72" y="244" font-size="15" font-weight="700" fill="#0f172a">Never responded at all</text>
+  <text x="72" y="266" font-size="13" fill="#475569">~233 brokers stayed silent &#8212; a likely CCPA violation</text>
+
+  <!-- 57% responded (x 531..1152, width 621) -->
+  <rect x="531" y="178" width="621" height="104" rx="14" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="555" y="216" font-size="40" font-weight="800" fill="#16a34a">57%</text>
+  <text x="555" y="244" font-size="15" font-weight="700" fill="#0f172a">Responded to the request</text>
+  <text x="555" y="266" font-size="13" fill="#475569">~310 brokers replied in some form</text>
+
+  <!-- Sub-breakdown of the 57% responders -->
+  <text x="531" y="324" font-size="12.5" font-weight="700" letter-spacing="1" fill="#94a3b8">OF THOSE THAT RESPONDED</text>
+
+  <rect x="531" y="338" width="621" height="150" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- 90.7% within 45 days -->
+  <rect x="555" y="362" width="563" height="44" rx="9" fill="#dcfce7"/>
+  <rect x="555" y="362" width="510" height="44" rx="9" fill="#22c55e"/>
+  <text x="579" y="390" font-size="17" font-weight="800" fill="#ffffff">90.7% replied within the 45-day legal window</text>
+  <text x="555" y="442" font-size="14" font-weight="700" fill="#0f172a">Half replied within just 6 days</text>
+  <text x="555" y="466" font-size="13" fill="#475569">The 45-day cap is the maximum most US state laws allow; the fast ones beat it easily.</text>
+
+  <!-- Takeaway callout under the silent block -->
+  <rect x="48" y="338" width="451" height="150" rx="14" fill="#0f172a"/>
+  <text x="72" y="374" font-size="15" font-weight="800" fill="#ffffff">The problem isn't speed.</text>
+  <text x="72" y="402" font-size="13.5" fill="#cbd5e1">When a broker answers, it usually answers on time.</text>
+  <text x="72" y="424" font-size="13.5" fill="#cbd5e1">The friction is the 43% that ignore you &#8212; the</text>
+  <text x="72" y="444" font-size="13.5" fill="#cbd5e1">ones that need a follow-up, a paper trail, and</text>
+  <text x="72" y="464" font-size="13.5" fill="#cbd5e1">persistence to actually delete your data.</text>
+
+  <text x="48" y="520" font-size="13" fill="#94a3b8">Source: UC Irvine (Bren School of ICS) probe of all 543 California-registered data brokers, 2024&#8211;2025. Counts are approximate.</text>
+  <text x="1152" y="520" font-size="14" font-weight="800" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>
