@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">Why your data reappears on data broker sites after removal</title>
+  <desc id="desc">A cycle: you opt out and your profile is suppressed, but public-record re-scraping, partner data-feed acquisitions, and inter-broker resale feed a new matching record that rebuilds your profile within three to four months, restarting the loop.</desc>
+  <rect width="1200" height="600" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="598" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">THE REAPPEARANCE CYCLE</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">Why removal isn&#39;t permanent &#8212; the loop that rebuilds you</text>
+
+  <!-- cycle arrows (rounded rectangle path, clockwise) -->
+  <g fill="none" stroke="#cbd5e1" stroke-width="3">
+    <path d="M360 200 H840"/>
+    <path d="M980 250 V360"/>
+    <path d="M840 410 H360"/>
+    <path d="M220 360 V250"/>
+  </g>
+  <g fill="#cbd5e1">
+    <path d="M840 194 l14 6 -14 6 z"/>           <!-- right along top -->
+    <path d="M974 360 l6 14 6 -14 z"/>           <!-- down right side -->
+    <path d="M360 404 l-14 6 14 6 z"/>           <!-- left along bottom -->
+    <path d="M214 250 l6 -14 6 14 z"/>           <!-- up left side -->
+  </g>
+
+  <!-- NODE 1: You opt out -->
+  <g>
+    <rect x="60" y="170" width="300" height="120" rx="16" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+    <text x="84" y="208" font-size="14" font-weight="800" letter-spacing="1" fill="#16a34a">STEP 1 &#183; YOU ACT</text>
+    <text x="84" y="240" font-size="20" font-weight="800" fill="#0f172a">You opt out</text>
+    <text x="84" y="268" font-size="14" fill="#475569">Profile suppressed or deleted.</text>
+  </g>
+
+  <!-- NODE 2: Brokers re-ingest -->
+  <g>
+    <rect x="840" y="170" width="312" height="120" rx="16" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="864" y="208" font-size="14" font-weight="800" letter-spacing="1" fill="#dc2626">STEP 2 &#183; NEW DATA ARRIVES</text>
+    <text x="864" y="240" font-size="20" font-weight="800" fill="#0f172a">A fresh record appears</text>
+    <text x="864" y="268" font-size="14" fill="#475569">From any of the 3 sources below.</text>
+  </g>
+
+  <!-- NODE 3: Match -->
+  <g>
+    <rect x="840" y="320" width="312" height="120" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="864" y="358" font-size="14" font-weight="800" letter-spacing="1" fill="#64748b">STEP 3 &#183; SYSTEM MATCHES</text>
+    <text x="864" y="390" font-size="20" font-weight="800" fill="#0f172a">Identity re-matched</text>
+    <text x="864" y="418" font-size="14" fill="#475569">It sees a match, not a deletion.</text>
+  </g>
+
+  <!-- NODE 4: Profile rebuilt -->
+  <g>
+    <rect x="60" y="320" width="300" height="120" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="84" y="358" font-size="14" font-weight="800" letter-spacing="1" fill="#64748b">STEP 4 &#183; RE-LISTED</text>
+    <text x="84" y="390" font-size="20" font-weight="800" fill="#0f172a">Profile rebuilt</text>
+    <text x="84" y="418" font-size="14" fill="#475569">Live again in ~3&#8211;4 months.</text>
+  </g>
+
+  <!-- center: the 3 sources feeding the cycle -->
+  <text x="600" y="318" font-size="13.5" font-weight="800" letter-spacing="1" fill="#dc2626" text-anchor="middle">3 SOURCES THAT REFILL THE PIPE</text>
+  <g font-size="13.5" fill="#475569">
+    <text x="600" y="346" text-anchor="middle" font-weight="700" fill="#0f172a">1 &#183; Public-record re-scraping</text>
+    <text x="600" y="370" text-anchor="middle" font-weight="700" fill="#0f172a">2 &#183; Partner data-feed acquisitions</text>
+    <text x="600" y="394" text-anchor="middle" font-weight="700" fill="#0f172a">3 &#183; Inter-broker resale</text>
+  </g>
+
+  <text x="48" y="558" font-size="13.5" fill="#94a3b8">Suppression hides your profile; it doesn&#39;t purge it &#8212; which is why a single match flips it back on. Re-run opt-outs every 3&#8211;4 months.</text>
+  <text x="1152" y="558" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">The data broker opt-out process, start to finish</title>
+  <desc id="desc">Six milestones: find your listings, send a deletion request, pass identity verification without uploading a government ID, wait out the 45-day legal window, confirm removal, then re-check every three to four months.</desc>
+  <rect width="1200" height="470" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="468" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">THE OPT-OUT PROCESS</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">Six steps from listed to removed</text>
+
+  <!-- timeline rail -->
+  <line x1="110" y1="210" x2="1090" y2="210" stroke="#e2e8f0" stroke-width="4"/>
+  <line x1="110" y1="210" x2="1090" y2="210" stroke="#0f172a" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/>
+
+  <!-- milestones -->
+  <!-- helper geometry: 6 nodes evenly spaced -->
+  <!-- x positions: 150, 338, 526, 714, 902, 1050 -->
+  <g text-anchor="middle">
+    <!-- 1 -->
+    <circle cx="150" cy="210" r="22" fill="#0f172a"/>
+    <text x="150" y="217" font-size="17" font-weight="800" fill="#ffffff">1</text>
+    <text x="150" y="156" font-size="16" font-weight="800" fill="#0f172a">Find listings</text>
+    <text x="150" y="264" font-size="13" fill="#475569">Free scan / search</text>
+    <text x="150" y="282" font-size="13" fill="#475569">your name + phone</text>
+
+    <!-- 2 -->
+    <circle cx="338" cy="210" r="22" fill="#0f172a"/>
+    <text x="338" y="217" font-size="17" font-weight="800" fill="#ffffff">2</text>
+    <text x="338" y="156" font-size="16" font-weight="800" fill="#0f172a">Send request</text>
+    <text x="338" y="264" font-size="13" fill="#475569">CCPA / GDPR deletion</text>
+    <text x="338" y="282" font-size="13" fill="#475569">email or opt-out form</text>
+
+    <!-- 3 -->
+    <circle cx="526" cy="210" r="22" fill="#0f172a"/>
+    <text x="526" y="217" font-size="17" font-weight="800" fill="#ffffff">3</text>
+    <text x="526" y="156" font-size="16" font-weight="800" fill="#0f172a">Verify identity</text>
+    <text x="526" y="264" font-size="13" fill="#dc2626" font-weight="700">Never upload gov ID</text>
+    <text x="526" y="282" font-size="13" fill="#475569">email link is enough</text>
+
+    <!-- 4 -->
+    <circle cx="714" cy="210" r="22" fill="#0f172a"/>
+    <text x="714" y="217" font-size="17" font-weight="800" fill="#ffffff">4</text>
+    <text x="714" y="156" font-size="16" font-weight="800" fill="#0f172a">45-day window</text>
+    <text x="714" y="264" font-size="13" fill="#475569">Legal deadline to act</text>
+    <text x="714" y="282" font-size="13" fill="#475569">follow up every 2&#8211;3 wks</text>
+
+    <!-- 5 -->
+    <circle cx="902" cy="210" r="22" fill="#16a34a"/>
+    <text x="902" y="217" font-size="17" font-weight="800" fill="#ffffff">5</text>
+    <text x="902" y="156" font-size="16" font-weight="800" fill="#0f172a">Confirm removal</text>
+    <text x="902" y="264" font-size="13" fill="#475569">Re-search to verify</text>
+    <text x="902" y="282" font-size="13" fill="#475569">listing is gone</text>
+
+    <!-- 6 -->
+    <circle cx="1050" cy="210" r="22" fill="#dc2626"/>
+    <text x="1050" y="217" font-size="17" font-weight="800" fill="#ffffff">6</text>
+    <text x="1050" y="156" font-size="16" font-weight="800" fill="#0f172a">Re-check</text>
+    <text x="1050" y="264" font-size="13" fill="#475569">Repeat every</text>
+    <text x="1050" y="282" font-size="13" fill="#475569">3&#8211;4 months</text>
+  </g>
+
+  <text x="48" y="430" font-size="13.5" fill="#94a3b8">Typical timeline: easy brokers clear in 3&#8211;7 days; stubborn ones take the full 45-day statutory window.</text>
+  <text x="1152" y="430" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>

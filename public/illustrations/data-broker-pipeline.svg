@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">How a data broker turns your information into a product</title>
+  <desc id="desc">Four-stage pipeline: brokers collect data from public records, online tracking, and other brokers, then match it into a single profile, enrich it with inferred attributes, and sell access to marketers, background-check sites, and ad networks.</desc>
+  <rect width="1200" height="540" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- eyebrow -->
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">THE DATA BROKER PIPELINE</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">From your life to a line item for sale</text>
+
+  <!-- connecting baseline arrows -->
+  <g stroke="#cbd5e1" stroke-width="2.5" fill="none">
+    <path d="M296 300 H328"/><path d="M572 300 H604"/><path d="M848 300 H880"/>
+  </g>
+  <g fill="#cbd5e1">
+    <path d="M328 294 l12 6 -12 6 z"/><path d="M604 294 l12 6 -12 6 z"/><path d="M880 294 l12 6 -12 6 z"/>
+  </g>
+
+  <!-- STAGE 1: Collect -->
+  <g>
+    <rect x="48" y="150" width="248" height="300" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="84" cy="186" r="18" fill="#0f172a"/>
+    <text x="84" y="192" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="116" y="192" font-size="21" font-weight="800" fill="#0f172a">Collect</text>
+    <text x="72" y="252" font-size="14.5" fill="#475569">• Public records (deeds,</text>
+    <text x="84" y="274" font-size="14.5" fill="#475569">court filings, voter rolls)</text>
+    <text x="72" y="306" font-size="14.5" fill="#475569">• Apps &amp; site tracking</text>
+    <text x="84" y="328" font-size="14.5" fill="#475569">(cookies, SDKs, location)</text>
+    <text x="72" y="360" font-size="14.5" fill="#475569">• Retailer &amp; loyalty lists</text>
+    <text x="72" y="392" font-size="14.5" fill="#475569">• Other data brokers</text>
+  </g>
+
+  <!-- STAGE 2: Match -->
+  <g>
+    <rect x="324" y="150" width="248" height="300" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="360" cy="186" r="18" fill="#0f172a"/>
+    <text x="360" y="192" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="392" y="192" font-size="21" font-weight="800" fill="#0f172a">Match</text>
+    <text x="348" y="252" font-size="14.5" fill="#475569">Link fragments using</text>
+    <text x="348" y="274" font-size="14.5" fill="#475569">shared identifiers:</text>
+    <text x="348" y="312" font-size="14.5" fill="#475569">email · phone · address</text>
+    <text x="348" y="334" font-size="14.5" fill="#475569">device ID · cookie ID</text>
+    <text x="348" y="392" font-size="14.5" font-weight="700" fill="#0f172a">→ one profile, 100+</text>
+    <text x="348" y="414" font-size="14.5" font-weight="700" fill="#0f172a">attributes per person</text>
+  </g>
+
+  <!-- STAGE 3: Enrich -->
+  <g>
+    <rect x="600" y="150" width="248" height="300" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="636" cy="186" r="18" fill="#0f172a"/>
+    <text x="636" y="192" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="668" y="192" font-size="21" font-weight="800" fill="#0f172a">Enrich</text>
+    <text x="624" y="252" font-size="14.5" fill="#475569">Append inferred traits:</text>
+    <text x="624" y="290" font-size="14.5" fill="#475569">• Estimated income</text>
+    <text x="624" y="318" font-size="14.5" fill="#475569">• Credit tier</text>
+    <text x="624" y="346" font-size="14.5" fill="#475569">• Family size</text>
+    <text x="624" y="374" font-size="14.5" fill="#475569">• Hobbies &amp; politics</text>
+    <text x="624" y="412" font-size="13" font-style="italic" fill="#94a3b8">guessed, not given</text>
+  </g>
+
+  <!-- STAGE 4: Sell -->
+  <g>
+    <rect x="876" y="150" width="276" height="300" rx="16" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="912" cy="186" r="18" fill="#dc2626"/>
+    <text x="912" y="192" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="944" y="192" font-size="21" font-weight="800" fill="#dc2626">Sell</text>
+    <text x="900" y="252" font-size="14.5" fill="#475569">• Bulk marketing lists</text>
+    <text x="900" y="284" font-size="14.5" fill="#475569">• Background-check</text>
+    <text x="912" y="306" font-size="14.5" fill="#475569">query access</text>
+    <text x="900" y="338" font-size="14.5" fill="#475569">• Per-record API calls</text>
+    <text x="900" y="370" font-size="14.5" fill="#475569">• Ad-targeting segments</text>
+    <text x="900" y="412" font-size="14.5" font-weight="800" fill="#dc2626">You never agreed to this.</text>
+  </g>
+
+  <!-- footer note -->
+  <text x="48" y="500" font-size="13.5" fill="#94a3b8">Under CCPA §1798.105 and GDPR Art. 17 you can demand deletion at any stage, at no cost.</text>
+  <text x="1152" y="500" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>
