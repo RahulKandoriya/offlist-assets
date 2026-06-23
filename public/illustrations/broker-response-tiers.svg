@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">How long data broker removal takes, by broker tier</title>
+  <desc id="desc">Removal speed falls into three tiers. Fast brokers like TruePeopleSearch and FastPeopleSearch process within 24 hours. Mid-tier brokers like Spokeo and BeenVerified take 2 to 5 days. Slow brokers like Intelius, LexisNexis and Acxiom take 7 to 45 days. Under CCPA and similar state laws, every broker must respond within a 45-day legal maximum.</desc>
+  <rect width="1200" height="520" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="518" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">HOW LONG REMOVAL TAKES</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">Response time by broker tier</text>
+
+  <!-- 45-day scale rail -->
+  <text x="120" y="150" font-size="12.5" font-weight="700" fill="#94a3b8">DAY 0</text>
+  <text x="1080" y="150" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">DAY 45 (legal max)</text>
+  <line x1="120" y1="162" x2="1080" y2="162" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="1080" y1="152" x2="1080" y2="172" stroke="#dc2626" stroke-width="3"/>
+
+  <!-- TIER 1 fast -->
+  <g>
+    <rect x="48" y="190" width="1104" height="86" rx="14" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+    <circle cx="92" cy="233" r="20" fill="#22c55e"/><text x="92" y="239" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+    <text x="128" y="226" font-size="18" font-weight="800" fill="#0f172a">Fast brokers</text>
+    <text x="128" y="252" font-size="13.5" fill="#475569">TruePeopleSearch, FastPeopleSearch, SearchPeopleFree</text>
+    <text x="1128" y="240" font-size="22" font-weight="800" fill="#16a34a" text-anchor="end">&#8804; 24 hours</text>
+  </g>
+
+  <!-- TIER 2 mid -->
+  <g>
+    <rect x="48" y="288" width="1104" height="86" rx="14" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="92" cy="331" r="20" fill="#f59e0b"/><text x="92" y="337" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+    <text x="128" y="324" font-size="18" font-weight="800" fill="#0f172a">Mid-tier brokers</text>
+    <text x="128" y="350" font-size="13.5" fill="#475569">Spokeo, BeenVerified, Radaris</text>
+    <text x="1128" y="338" font-size="22" font-weight="800" fill="#b45309" text-anchor="end">2&#8211;5 days</text>
+  </g>
+
+  <!-- TIER 3 slow -->
+  <g>
+    <rect x="48" y="386" width="1104" height="86" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="92" cy="429" r="20" fill="#dc2626"/><text x="92" y="435" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+    <text x="128" y="422" font-size="18" font-weight="800" fill="#0f172a">Slow brokers</text>
+    <text x="128" y="448" font-size="13.5" fill="#475569">Intelius, LexisNexis, Acxiom</text>
+    <text x="1128" y="436" font-size="22" font-weight="800" fill="#dc2626" text-anchor="end">7&#8211;45 days</text>
+  </g>
+
+  <text x="48" y="504" font-size="13" fill="#94a3b8">All US data brokers must answer a deletion request within 45 days under CCPA and peer state laws. Follow up every 2&#8211;3 weeks until confirmed.</text>
+</svg>

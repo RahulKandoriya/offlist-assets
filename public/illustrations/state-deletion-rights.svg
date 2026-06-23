@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">Your data deletion rights by state &#8212; with or without a comprehensive privacy law</title>
+  <desc id="desc">Whether your state has a comprehensive privacy law or not, you can still request deletion. States with laws like CCPA, VCDPA, CPA and CTDPA give enforceable rights with a 45-day broker deadline and attorney-general enforcement. States without still benefit because national brokers run one universal CCPA-compliant workflow, backed by FTC and consumer-protection statutes. Either way, you can request deletion.</desc>
+  <rect width="1200" height="540" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">DELETION RIGHTS BY STATE</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">No state privacy law? You can still get deleted.</text>
+
+  <!-- LEFT tier -->
+  <g>
+    <rect x="48" y="130" width="540" height="250" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="76" y="170" font-size="14" font-weight="800" letter-spacing="0.5" fill="#0f172a">STATES WITH A COMPREHENSIVE LAW</text>
+    <text x="76" y="196" font-size="13" fill="#64748b">CCPA, VCDPA, CPA, CTDPA, OCPA, UCPA, TDPSA, FDBR&#8230;</text>
+    <g font-size="14.5" fill="#334155">
+      <text x="76" y="240">&#10003; Enforceable right to delete</text>
+      <text x="76" y="276">&#10003; 45-day broker response deadline</text>
+      <text x="76" y="312">&#10003; State attorney-general enforcement</text>
+      <text x="76" y="348">&#10003; Often: correct, access &amp; opt-out of sale</text>
+    </g>
+  </g>
+
+  <!-- RIGHT tier -->
+  <g>
+    <rect x="612" y="130" width="540" height="250" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="640" y="170" font-size="14" font-weight="800" letter-spacing="0.5" fill="#0f172a">STATES WITHOUT ONE</text>
+    <text x="640" y="196" font-size="13" fill="#64748b">CCPA opt-out rights still reach you in practice</text>
+    <g font-size="14.5" fill="#334155">
+      <text x="640" y="240">&#10003; National brokers run ONE universal</text>
+      <text x="664" y="266">CCPA-compliant workflow for everyone</text>
+      <text x="640" y="302">&#10003; FTC + consumer-protection backstop</text>
+      <text x="640" y="338">&#10003; Many honor any clearly-worded request</text>
+    </g>
+  </g>
+
+  <!-- merge arrows -->
+  <g fill="none" stroke="#cbd5e1" stroke-width="3">
+    <path d="M318 380 V410 H600 V436"/>
+    <path d="M882 380 V410 H600"/>
+  </g>
+  <path d="M594 436 l6 14 6 -14 z" fill="#22c55e"/>
+
+  <!-- unifying outcome -->
+  <rect x="350" y="448" width="500" height="56" rx="14" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="600" y="483" font-size="18" font-weight="800" fill="#16a34a" text-anchor="middle">Either way &#8212; you can request deletion</text>
+
+  <text x="48" y="528" font-size="13" fill="#94a3b8">Caveat: public records are legally public; no law stops a broker from re-importing them, which is why re-runs matter.</text>
+</svg>
