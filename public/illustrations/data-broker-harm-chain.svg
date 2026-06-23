@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">The anatomy of data-broker harm: how a data point becomes real-world harm</title>
+  <desc id="desc">Every documented data-broker harm case follows the same five-step chain. Step one: your data is created through public records, court filings, purchases, and signups. Step two: a broker aggregates and sells it, bundling your name, address, phone, SSN, and location into a report. Step three: a bad actor such as a stalker, swatter, or harasser buys that report. Step four: real-world harm follows, including stalking, swatting, targeted threats, and in the Amy Boyer case, murder. Step five: a law or ruling follows, such as Amy Boyer's Law, Daniel's Law, and FTC location-data orders. Removal breaks the chain at step two, before a stranger can buy the report.</desc>
+  <rect width="1200" height="540" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">THE ANATOMY OF DATA-BROKER HARM</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">How a data point becomes real-world harm</text>
+  <text x="48" y="120" font-size="15" fill="#475569">Every case study on this page follows the same five-step chain, from a public record to a change in the law.</text>
+
+  <!-- Step boxes -->
+  <!-- 1 Data created -->
+  <rect x="48" y="168" width="196" height="208" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="146" cy="208" r="18" fill="#475569"/><text x="146" y="214" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+  <text x="146" y="256" font-size="16" font-weight="800" fill="#0f172a" text-anchor="middle">Data is created</text>
+  <text font-size="12" fill="#475569" text-anchor="middle">
+    <tspan x="146" y="290">Public records, court</tspan>
+    <tspan x="146" y="308">filings, purchases,</tspan>
+    <tspan x="146" y="326">app signups</tspan>
+  </text>
+
+  <!-- 2 Broker sells it -->
+  <rect x="275" y="168" width="196" height="208" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="373" cy="208" r="18" fill="#475569"/><text x="373" y="214" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+  <text x="373" y="256" font-size="16" font-weight="800" fill="#0f172a" text-anchor="middle">A broker sells it</text>
+  <text font-size="12" fill="#475569" text-anchor="middle">
+    <tspan x="373" y="290">Name, address, phone,</tspan>
+    <tspan x="373" y="308">SSN, location bundled</tspan>
+    <tspan x="373" y="326">into a sellable report</tspan>
+  </text>
+
+  <!-- 3 Bad actor buys it -->
+  <rect x="502" y="168" width="196" height="208" rx="14" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="600" cy="208" r="18" fill="#f59e0b"/><text x="600" y="214" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+  <text x="600" y="256" font-size="16" font-weight="800" fill="#0f172a" text-anchor="middle">A bad actor buys it</text>
+  <text font-size="12" fill="#475569" text-anchor="middle">
+    <tspan x="600" y="290">A stalker, swatter, or</tspan>
+    <tspan x="600" y="308">harasser pays for the</tspan>
+    <tspan x="600" y="326">report &#8212; often for cents</tspan>
+  </text>
+
+  <!-- 4 Real-world harm -->
+  <rect x="729" y="168" width="196" height="208" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="827" cy="208" r="18" fill="#dc2626"/><text x="827" y="214" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+  <text x="827" y="256" font-size="16" font-weight="800" fill="#dc2626" text-anchor="middle">Real-world harm</text>
+  <text font-size="12" fill="#475569" text-anchor="middle">
+    <tspan x="827" y="290">Stalking, swatting,</tspan>
+    <tspan x="827" y="308">targeted threats &#8212; in</tspan>
+    <tspan x="827" y="326">one case, murder</tspan>
+  </text>
+
+  <!-- 5 A law follows -->
+  <rect x="956" y="168" width="196" height="208" rx="14" fill="#0f172a"/>
+  <circle cx="1054" cy="208" r="18" fill="#22c55e"/><text x="1054" y="214" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+  <text x="1054" y="256" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">A law follows</text>
+  <text font-size="12" fill="#cbd5e1" text-anchor="middle">
+    <tspan x="1054" y="290">Amy Boyer's Law,</tspan>
+    <tspan x="1054" y="308">Daniel's Law, FTC</tspan>
+    <tspan x="1054" y="326">location-data orders</tspan>
+  </text>
+
+  <!-- Arrows between steps -->
+  <g fill="#94a3b8">
+    <path d="M250 272 l14 8 l-14 8 z"/>
+    <path d="M477 272 l14 8 l-14 8 z"/>
+    <path d="M704 272 l14 8 l-14 8 z"/>
+    <path d="M931 272 l14 8 l-14 8 z"/>
+  </g>
+
+  <!-- Removal cut callout -->
+  <line x1="259" y1="396" x2="259" y2="168" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 5"/>
+  <rect x="48" y="404" width="1104" height="64" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="68" y="424" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="90" y="434" font-size="13" font-weight="700" letter-spacing="1" fill="#dc2626">WHERE REMOVAL BREAKS THE CHAIN</text>
+  <text x="68" y="456" font-size="14.5" fill="#0f172a">Opting out at step 2 deletes the report before anyone can buy it &#8212; the only step that stops every case downstream.</text>
+
+  <text x="48" y="504" font-size="13" fill="#94a3b8">Each case study below is a real, sourced instance of this chain playing out, from Amy Boyer (1999) to today's swatting cases.</text>
+  <text x="1152" y="504" font-size="14" font-weight="800" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>
