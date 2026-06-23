@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">How OfflistMe works end to end, and why your data never touches our servers</title>
+  <desc id="desc">Five steps: you enter your details client-side, opt-out templates citing the right law are filled in your browser, you receive a sendable set of pre-addressed emails and form links, you send each request yourself from your own inbox, and the broker replies directly to you. OfflistMe never handles your data after generation and never sees broker responses.</desc>
+  <rect width="1200" height="500" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="498" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">HOW OFFLISTME WORKS</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">Your data never touches our servers</text>
+
+  <!-- the "your device" band over steps 1-3 -->
+  <rect x="48" y="150" width="700" height="250" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="64" y="176" font-size="12.5" font-weight="800" letter-spacing="1.5" fill="#64748b">IN YOUR BROWSER &#183; CLIENT-SIDE</text>
+
+  <!-- arrows along the row -->
+  <g fill="#cbd5e1">
+    <path d="M250 270 l14 6 -14 6 z"/>
+    <path d="M470 270 l14 6 -14 6 z"/>
+    <path d="M760 270 l14 6 -14 6 z"/>
+    <path d="M980 270 l14 6 -14 6 z"/>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="2.5"><path d="M236 276 h28"/><path d="M456 276 h28"/><path d="M746 276 h28"/><path d="M966 276 h28"/></g>
+
+  <!-- STEP 1 -->
+  <g>
+    <rect x="68" y="196" width="168" height="160" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="96" cy="226" r="15" fill="#0f172a"/><text x="96" y="231" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+    <text x="88" y="262" font-size="15" font-weight="800" fill="#0f172a">Enter details</text>
+    <text x="88" y="288" font-size="12.5" fill="#475569">Name, email, optional</text>
+    <text x="88" y="306" font-size="12.5" fill="#475569">phone/address.</text>
+    <text x="88" y="332" font-size="12" font-weight="700" fill="#16a34a">Not stored on servers.</text>
+  </g>
+  <!-- STEP 2 -->
+  <g>
+    <rect x="288" y="196" width="168" height="160" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="316" cy="226" r="15" fill="#0f172a"/><text x="316" y="231" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+    <text x="308" y="262" font-size="15" font-weight="800" fill="#0f172a">Templates filled</text>
+    <text x="308" y="288" font-size="12.5" fill="#475569">Each request cites the</text>
+    <text x="308" y="306" font-size="12.5" fill="#475569">right law (CCPA, VCDPA,</text>
+    <text x="308" y="324" font-size="12.5" fill="#475569">CPA, GDPR&#8230;).</text>
+  </g>
+  <!-- STEP 3 -->
+  <g>
+    <rect x="508" y="196" width="220" height="160" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="536" cy="226" r="15" fill="#0f172a"/><text x="536" y="231" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+    <text x="528" y="262" font-size="15" font-weight="800" fill="#0f172a">Get a sendable set</text>
+    <text x="528" y="288" font-size="12.5" fill="#475569">Pre-addressed emails +</text>
+    <text x="528" y="306" font-size="12.5" fill="#475569">deep-links to opt-out</text>
+    <text x="528" y="324" font-size="12.5" fill="#475569">forms, pre-filled.</text>
+  </g>
+
+  <!-- STEP 4 (you) -->
+  <g>
+    <rect x="788" y="196" width="168" height="160" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="816" cy="226" r="15" fill="#3b82f6"/><text x="816" y="231" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+    <text x="808" y="262" font-size="15" font-weight="800" fill="#0f172a">You send them</text>
+    <text x="808" y="288" font-size="12.5" fill="#475569">From your own inbox.</text>
+    <text x="808" y="314" font-size="12" font-weight="700" fill="#3b82f6">Stronger legal standing;</text>
+    <text x="808" y="332" font-size="12" font-weight="700" fill="#3b82f6">we never see it.</text>
+  </g>
+  <!-- STEP 5 (broker) -->
+  <g>
+    <rect x="1008" y="196" width="144" height="160" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="1036" cy="226" r="15" fill="#dc2626"/><text x="1036" y="231" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+    <text x="1028" y="262" font-size="15" font-weight="800" fill="#0f172a">Broker replies</text>
+    <text x="1028" y="288" font-size="12.5" fill="#475569">Directly to your</text>
+    <text x="1028" y="306" font-size="12.5" fill="#475569">inbox.</text>
+    <text x="1028" y="332" font-size="12" font-weight="700" fill="#dc2626">We don&#39;t see it.</text>
+  </g>
+
+  <text x="48" y="438" font-size="13.5" fill="#94a3b8">Because you send and receive everything, OfflistMe is not an &#8220;authorized agent&#8221; and never handles your data after generation.</text>
+  <text x="1152" y="438" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>

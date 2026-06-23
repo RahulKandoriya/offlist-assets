@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">Manual DIY opt-out versus using a removal service</title>
+  <desc id="desc">Two paths from being listed on 500-plus brokers. The manual DIY route costs nothing but takes 500-plus hours, must be tracked broker by broker, carries a high error risk, and repeats forever. The service route costs a one-time fee, takes about five minutes, generates the requests for you, and is low risk.</desc>
+  <rect width="1200" height="560" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="558" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">MANUAL vs. SERVICE</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">Two ways to get removed &#8212; same outcome, very different cost</text>
+
+  <!-- start node -->
+  <rect x="430" y="120" width="340" height="58" rx="14" fill="#0f172a"/>
+  <text x="600" y="156" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">You&#39;re listed on 500+ data brokers</text>
+
+  <!-- fork lines -->
+  <g fill="none" stroke="#cbd5e1" stroke-width="3">
+    <path d="M600 178 V200 H300 V224"/>
+    <path d="M600 178 V200 H900 V224"/>
+  </g>
+  <path d="M294 224 l6 14 6 -14 z" fill="#cbd5e1"/>
+  <path d="M894 224 l6 14 6 -14 z" fill="#94a3b8"/>
+
+  <!-- LEFT path: Manual DIY -->
+  <g>
+    <rect x="72" y="236" width="456" height="276" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="96" y="276" font-size="20" font-weight="800" fill="#0f172a">Path A &#183; Manual DIY</text>
+    <text x="96" y="300" font-size="13.5" fill="#64748b">Find, file, and follow up on every broker yourself.</text>
+
+    <g font-size="15" fill="#334155">
+      <text x="96" y="344">Cost</text><text x="504" y="344" text-anchor="end" font-weight="800" fill="#16a34a">$0</text>
+      <text x="96" y="384">Time</text><text x="504" y="384" text-anchor="end" font-weight="800" fill="#dc2626">500+ hours</text>
+      <text x="96" y="424">Tracking</text><text x="504" y="424" text-anchor="end" font-weight="700" fill="#334155">Broker-by-broker, by hand</text>
+      <text x="96" y="464">Error risk</text><text x="504" y="464" text-anchor="end" font-weight="800" fill="#dc2626">High</text>
+    </g>
+    <line x1="96" y1="356" x2="504" y2="356" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="96" y1="396" x2="504" y2="396" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="96" y1="436" x2="504" y2="436" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="96" y="496" font-size="13" font-style="italic" fill="#94a3b8">Free, but the time cost is the real price.</text>
+  </g>
+
+  <!-- RIGHT path: Service -->
+  <g>
+    <rect x="672" y="236" width="456" height="276" rx="16" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="696" y="276" font-size="20" font-weight="800" fill="#dc2626">Path B &#183; Removal service</text>
+    <text x="696" y="300" font-size="13.5" fill="#64748b">The requests are generated for you; you just send them.</text>
+
+    <g font-size="15" fill="#334155">
+      <text x="696" y="344">Cost</text><text x="1104" y="344" text-anchor="end" font-weight="800" fill="#0f172a">One-time / subscription</text>
+      <text x="696" y="384">Time</text><text x="1104" y="384" text-anchor="end" font-weight="800" fill="#16a34a">~5 minutes</text>
+      <text x="696" y="424">Tracking</text><text x="1104" y="424" text-anchor="end" font-weight="700" fill="#334155">Done for you</text>
+      <text x="696" y="464">Error risk</text><text x="1104" y="464" text-anchor="end" font-weight="800" fill="#16a34a">Low</text>
+    </g>
+    <line x1="696" y1="356" x2="1104" y2="356" stroke="#fecaca" stroke-width="1"/>
+    <line x1="696" y1="396" x2="1104" y2="396" stroke="#fecaca" stroke-width="1"/>
+    <line x1="696" y1="436" x2="1104" y2="436" stroke="#fecaca" stroke-width="1"/>
+    <text x="696" y="496" font-size="13" font-style="italic" fill="#94a3b8">OfflistMe: pay once, send from your own inbox.</text>
+  </g>
+
+  <text x="1152" y="540" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>

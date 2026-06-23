@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="title">Suppression versus deletion of your data broker profile</title>
+  <desc id="desc">Suppression hides your profile from public search while the underlying record stays in the broker database, so a new matching data feed automatically un-suppresses it. Deletion purges the record entirely, so a new feed has to build a brand-new profile from scratch. Most people-search sites suppress rather than delete.</desc>
+  <rect width="1200" height="520" rx="24" fill="#ffffff"/>
+  <rect x="1" y="1" width="1198" height="518" rx="23" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="48" y="40" width="11" height="11" rx="2" fill="#dc2626"/>
+  <text x="70" y="50" font-size="15" font-weight="700" letter-spacing="1.5" fill="#dc2626">SUPPRESSION vs. DELETION</text>
+  <text x="48" y="92" font-size="30" font-weight="800" fill="#0f172a">Why a &#8220;confirmed&#8221; opt-out can still rebuild</text>
+
+  <!-- LEFT: Suppression -->
+  <g>
+    <rect x="48" y="124" width="540" height="344" rx="16" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="80" y="166" font-size="14" font-weight="800" letter-spacing="1" fill="#dc2626">SUPPRESSION &#183; WHAT MOST BROKERS DO</text>
+    <text x="80" y="202" font-size="26" font-weight="800" fill="#0f172a">Hidden, not gone</text>
+
+    <text x="80" y="244" font-size="15" fill="#475569">Profile disappears from public search&#8230;</text>
+    <text x="80" y="274" font-size="15" font-weight="700" fill="#0f172a">&#8230;but the underlying record stays in the database.</text>
+
+    <!-- mini flow -->
+    <rect x="80" y="300" width="476" height="58" rx="10" fill="#ffffff" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="100" y="334" font-size="14" fill="#334155">New data feed arrives &#8594; system matches your ID &#8594;</text>
+    <rect x="80" y="372" width="476" height="58" rx="10" fill="#ffffff" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="100" y="406" font-size="14" font-weight="800" fill="#dc2626">profile auto-un-suppresses. It sees a match, not a delete.</text>
+  </g>
+
+  <!-- RIGHT: Deletion -->
+  <g>
+    <rect x="612" y="124" width="540" height="344" rx="16" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+    <text x="644" y="166" font-size="14" font-weight="800" letter-spacing="1" fill="#16a34a">DELETION &#183; WHAT YOU ACTUALLY WANT</text>
+    <text x="644" y="202" font-size="26" font-weight="800" fill="#0f172a">Purged from the database</text>
+
+    <text x="644" y="244" font-size="15" fill="#475569">The record is removed entirely&#8230;</text>
+    <text x="644" y="274" font-size="15" font-weight="700" fill="#0f172a">&#8230;so there&#39;s nothing left to re-match against.</text>
+
+    <rect x="644" y="300" width="476" height="58" rx="10" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+    <text x="664" y="334" font-size="14" fill="#334155">New data feed arrives &#8594; no existing record &#8594;</text>
+    <rect x="644" y="372" width="476" height="58" rx="10" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+    <text x="664" y="406" font-size="14" font-weight="800" fill="#16a34a">must build a brand-new profile from scratch (slower, rarer).</text>
+  </g>
+
+  <text x="48" y="498" font-size="13.5" fill="#94a3b8">A confirmed opt-out email usually means &#8220;suppressed,&#8221; not &#8220;deleted&#8221; &#8212; which is why re-runs matter. Ask for deletion explicitly where the law allows.</text>
+  <text x="1152" y="498" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="end">OfflistMe</text>
+</svg>
